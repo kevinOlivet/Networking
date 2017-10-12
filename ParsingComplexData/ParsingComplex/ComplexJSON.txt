@@ -28,7 +28,33 @@
 								{ "id": "5003", "type": "Chocolate" },
 								{ "id": "5004", "type": "Maple" }
 							]
-					}
+					},
+          {
+            "id": "0002",
+            "type": "cookie",
+            "name": "Cookies",
+            "ppu": 0.55,
+            "batters":
+              {
+                "batter":
+                  [
+                    { "id": "2001", "type": "Regular" },
+                    { "id": "2002", "type": "Oatmeal" },
+                    { "id": "2003", "type": "Oatmeal Raisin" },
+                    { "id": "2004", "type": "Macadamia Nut" }
+                  ]
+              },
+            "topping":
+              [
+                { "id": "6001", "type": "None" },
+                { "id": "6002", "type": "Glazed" },
+                { "id": "6005", "type": "Sugar" },
+                { "id": "6007", "type": "Powdered Sugar" },
+                { "id": "6006", "type": "Chocolate with Sprinkles" },
+                { "id": "6003", "type": "Chocolate" },
+                { "id": "6004", "type": "Maple" }
+              ]
+          }
 				]
 		}
 }
