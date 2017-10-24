@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2D553FC01F91106A00612F81 /* EarthquakerTrackerCodable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthquakerTrackerCodable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D553FC01F91106A00612F81 /* EarthquakeTrackerCodable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthquakeTrackerCodable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D553FC31F91106A00612F81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D553FC81F91106A00612F81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D553FCA1F91106A00612F81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		2D553FC11F91106A00612F81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D553FC01F91106A00612F81 /* EarthquakerTrackerCodable.app */,
+				2D553FC01F91106A00612F81 /* EarthquakeTrackerCodable.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,8 +65,8 @@
 				2D553FD71F9110D000612F81 /* EarthquakeTableViewController.swift */,
 				2D553FD51F9110CF00612F81 /* MapViewController.swift */,
 				2D553FD81F9110D000612F81 /* WebsiteData.swift */,
-				2D553FC71F91106A00612F81 /* Main.storyboard */,
 				2D553FCA1F91106A00612F81 /* Assets.xcassets */,
+				2D553FC71F91106A00612F81 /* Main.storyboard */,
 				2D553FCC1F91106A00612F81 /* LaunchScreen.storyboard */,
 				2D553FCF1F91106A00612F81 /* Info.plist */,
 			);
@@ -76,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2D553FBF1F91106A00612F81 /* EarthquakerTrackerCodable */ = {
+		2D553FBF1F91106A00612F81 /* EarthquakeTrackerCodable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D553FD21F91106A00612F81 /* Build configuration list for PBXNativeTarget "EarthquakerTrackerCodable" */;
+			buildConfigurationList = 2D553FD21F91106A00612F81 /* Build configuration list for PBXNativeTarget "EarthquakeTrackerCodable" */;
 			buildPhases = (
 				2D553FBC1F91106A00612F81 /* Sources */,
 				2D553FBD1F91106A00612F81 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = EarthquakerTrackerCodable;
+			name = EarthquakeTrackerCodable;
 			productName = EarthquakerTrackerCodable;
-			productReference = 2D553FC01F91106A00612F81 /* EarthquakerTrackerCodable.app */;
+			productReference = 2D553FC01F91106A00612F81 /* EarthquakeTrackerCodable.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2D553FBB1F91106A00612F81 /* Build configuration list for PBXProject "EarthquakerTrackerCodable" */;
+			buildConfigurationList = 2D553FBB1F91106A00612F81 /* Build configuration list for PBXProject "EarthquakeTrackerCodable" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D553FBF1F91106A00612F81 /* EarthquakerTrackerCodable */,
+				2D553FBF1F91106A00612F81 /* EarthquakeTrackerCodable */,
 			);
 		};
 /* End PBXProject section */
@@ -290,7 +290,7 @@
 				DEVELOPMENT_TEAM = F7Z96QXV9V;
 				INFOPLIST_FILE = EarthquakerTrackerCodable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = self.jonolivet.EarthquakerTrackerCodable;
+				PRODUCT_BUNDLE_IDENTIFIER = self.jonolivet.EarthquakeTrackerCodable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,7 +305,7 @@
 				DEVELOPMENT_TEAM = F7Z96QXV9V;
 				INFOPLIST_FILE = EarthquakerTrackerCodable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = self.jonolivet.EarthquakerTrackerCodable;
+				PRODUCT_BUNDLE_IDENTIFIER = self.jonolivet.EarthquakeTrackerCodable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D553FBB1F91106A00612F81 /* Build configuration list for PBXProject "EarthquakerTrackerCodable" */ = {
+		2D553FBB1F91106A00612F81 /* Build configuration list for PBXProject "EarthquakeTrackerCodable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D553FD01F91106A00612F81 /* Debug */,
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D553FD21F91106A00612F81 /* Build configuration list for PBXNativeTarget "EarthquakerTrackerCodable" */ = {
+		2D553FD21F91106A00612F81 /* Build configuration list for PBXNativeTarget "EarthquakeTrackerCodable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D553FD31F91106A00612F81 /* Debug */,

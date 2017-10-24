@@ -59,8 +59,8 @@
 				2D553FA31F91044E00612F81 /* AppDelegate.swift */,
 				2D553FA51F91044E00612F81 /* ViewController.swift */,
 				2D553FB51F91078800612F81 /* WebsiteData.swift */,
-				2D553FA71F91044E00612F81 /* Main.storyboard */,
 				2D553FAA1F91044E00612F81 /* Assets.xcassets */,
+				2D553FA71F91044E00612F81 /* Main.storyboard */,
 				2D553FAC1F91044E00612F81 /* LaunchScreen.storyboard */,
 				2D553FAF1F91044E00612F81 /* Info.plist */,
 			);
