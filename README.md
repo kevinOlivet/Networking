@@ -4,7 +4,7 @@ Using RESTful api to receive information from endpoints
 This collection of projects demonstrates how to receive and post information from the web and parse it's json into a usable format.
 Where possible I've included the Swift 3 way to do it using JSONSerialization usually commented out and the Swift 4 way using the Codable protocol.
 
-EarthquakeTracker2
+#EarthquakeTracker2
 (Swift 4)
 
 This was a project as part of an interview assessment.
@@ -31,14 +31,14 @@ For a little bit of flair the tableView is animated in ViewDidLoad and in the re
 :)
 
 
-EarthquakeTracker
+#EarthquakeTracker
 
 This was a project is very similar to EarthquakeTrackerCodable.
 It retrieves data about earthquakes from a government website and parses it.
 The parsing strategy uses Swift 3.
 
 
-PostRequest
+#PostRequest
 
 This project uses URLSession to make GET and POST requests.
 It uses Swift 4 and the Codable protocol to encode and decode the requests
@@ -58,7 +58,7 @@ This allows the response data to be read in the expected json format.
 The GET implementation is pretty standard.
 
 
-ParsingComplex
+#ParsingComplex
 
 For practice using the Codable protocol in Swift 4
 I went in search of the most complex json data structure I could find.
