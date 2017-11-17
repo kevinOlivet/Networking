@@ -65,13 +65,14 @@ class EarthquakeTableViewController: UITableViewController {
   
   // MARK: - Actions
   @objc func getMoreEarthquakes() {
-    DownloadManager.getEarthquakes { (earthquakeData:[Earthquake]?) in
+    DownloadManager.getEarthquakes { [weak self ](earthquakeData:[Earthquake]?) in
+      guard let strongSelf = self else { return }
       if let earthquakeData = earthquakeData {
-      self.earthquakeData = earthquakeData
+      strongSelf.earthquakeData = earthquakeData
       }
-      self.animateTable()
-      if self.refreshControl?.isRefreshing == true {
-        self.refreshControl?.endRefreshing()
+      strongSelf.animateTable()
+      if strongSelf.refreshControl?.isRefreshing == true {
+        strongSelf.refreshControl?.endRefreshing()
       }
       
     }
